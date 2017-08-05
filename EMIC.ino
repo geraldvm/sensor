@@ -1,6 +1,5 @@
-/* ********************Sintetizador de voz**************************
-*/
-
+/* ********************Sintetizador de voz***************************/
+/*                     *****Launchpad*****/
 
 //#define rxPin 0    // Serial input (connects to Emic 2 SOUT)
 //#define txPin 1    // Serial output (connects to Emic 2 SIN)
