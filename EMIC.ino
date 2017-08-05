@@ -1,3 +1,7 @@
+/* ********************Sintetizador de voz**************************
+*/
+
+
 //#define rxPin 0    // Serial input (connects to Emic 2 SOUT)
 //#define txPin 1    // Serial output (connects to Emic 2 SIN)
 #define ledPin 8  // Most Arduino boards have an on-board LED on this pin
@@ -41,15 +45,7 @@ void Emic() {
   digitalWrite(ledPin, LOW);
     
   delay(500);    // 1/2 second delay
-  
-  
-  
-  // Sing a song
- /* Serial1.print("D1\n");
- // digitalWrite(ledPin, HIGH);         // Turn on LED while Emic is outputting audio
-  while (Serial1.read() != ':');   // Wait here until the Emic 2 responds with a ":" indicating it's ready to accept the next command
-  //digitalWrite(ledPin, LOW);
-*/
+
   while(1)      // Demonstration complete!
   {
     delay(500);
